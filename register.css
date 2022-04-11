@@ -1,0 +1,133 @@
+body{
+    margin: 0;
+    padding:0;
+    font-family: poppins;
+    background-image: url(https://i.pinimg.com/474x/3c/a1/4d/3ca14d2790391344b3ae93c35f641121.jpg);
+    color: aliceblue;
+    background-size: cover;
+}
+.wrapper{
+    background-color: rgba(255,255,255,0.5);
+    width:800px;
+    height: 500px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+
+}
+.header-area p{
+    position: absolute;
+    top:30%;
+    left:10%;  
+}
+
+
+.header-area h2{
+    position: absolute;
+    top:20%;
+    left:20%;
+    transform: translate(-50%,-50%);
+    width:25%;
+    border: 1px inset #fff;
+    text-align: center;
+    color:#fff;
+    font-size: 25px;
+}
+.social{
+    position: absolute;
+    top:40%;
+    left:10%;
+}
+.form-area{
+    position: absolute;
+    display: grid;
+   grid-template-rows: repeat(6,1fr);
+   row-gap: 0.2rem;
+   left:50%;
+   top:15%;
+   background: transparent;
+}
+.sign{
+    position: absolute;
+    left:50%;  
+}
+.social{
+    position: absolute;
+    width: 30%;
+    top: 45%;
+    left: 180px;
+    font-size:30px;
+    padding: 1%;
+    transform: translate(-50%,-50%); 
+  border-radius: 20%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 17px;
+  cursor: pointer;
+    color:#fff;
+   
+}
+.header-area p{
+    left:8%;
+}
+.social i:nth-child(1){
+    background-color: blue;
+    text-align: center;
+    padding: 1%; 
+    border-radius: 6px;
+}
+.social i:nth-child(2){
+    background-color:red;
+    text-align: center;
+    border-radius: 6px;
+}
+.social i:nth-child(3){
+    background-color: black;
+    text-align: center;
+    border-radius: 6px;
+}
+.social i:nth-child(4){
+    background-color: blue;
+    text-align: center;
+    border-radius: 6px;
+}
+.form-area input{
+    outline: none;
+    padding: 0 0 0 35px;
+    border: 1px solid rgba(0,0,0,0);
+    border-bottom-color:#262626;
+    background-color: transparent;
+    color: black;
+    margin-bottom: 10px;
+}
+.form-area i{
+    color:black;
+}
+.form-area input[type=checkbox]{
+    margin: 20px 0 0 2px;
+    padding: 0px;
+    border: 2px solid #262626;
+    outline: none;
+    padding: 0%;
+}
+.form-area input[type=checkbox]{
+    background-color: black;
+
+}
+.form-area input[type=submit]{
+    cursor: pointer;
+    width: 275px;
+    height: 25px;
+    background-color:#262626;
+    font-size: 20px;
+    
+    border-radius: 20%;
+    
+
+}
+.checkbox{
+    float: right;
+    left: 52%;
+    padding: 0%;
+}
